@@ -35,42 +35,48 @@ I work mainly with React, Next.js, Astro, TypeScript, Java and SQL, building web
 
 ## Featured Projects
 
-### ReCyClapp
-Electronic waste reuse and recycling platform focused on connecting users with more accessible and sustainable alternatives.
+### Universidad UNE — Institutional Website
 
-Main features include:
+The university’s main website brings academic programs, campus information, and admissions together in one place. The project migrated the site from Odoo Website Builder to Astro.
 
-- Item listings
-- Geolocation
-- Filtering
-- Scheduling
-- User verification
-- Rating and reputation system
+- Academic program catalog and campus selector
+- On-demand generation of program information PDFs
+- Responsive pages with a focus on performance and SEO
 
-**Stack:** TypeScript, React / Next.js, Supabase
+**Stack:** Astro, TypeScript, Tailwind CSS, pdf-lib  
+**Live site:** [universidad-une.com](https://www.universidad-une.com/)
 
----
+### SPARK — Marketing Operations Platform
 
-### Google Forms to Astro
-Custom frontend and server-side integration layer for Google Forms using Astro.
+An internal platform that brings campaign planning, event coordination, and day-to-day work into a single workspace for UNE teams.
 
-The project explores replacing the default Google Forms interface with a custom UI while keeping form submission compatibility.
+- Campaign and event management with budget tracking and performance dashboards
+- Task and ticket management with Kanban views and approval workflows
+- Event registrations, inventory tracking, and dynamic QR codes with scan analytics
 
-**Stack:** Astro, TypeScript, Server-side handling
+**Stack:** Next.js, React, TypeScript, FastAPI, PostgreSQL
 
----
+### UNE Commercial Management System
 
-### Resume Builder
-Web-based resume builder focused on generating and structuring resumes through a simple interface.
+An internal application for managing academic offerings, tuition, and scholarships, and for tracking enrollment against targets across campuses.
 
-**Stack:** TypeScript
+- Enrollment entry and validation, with dashboards by campus and reporting period
+- Campus and advisor targets, commission calculations, and month-end closing
+- Shared catalog API with a typed frontend client generated from OpenAPI
 
----
+**Stack:** Next.js, TypeScript, TanStack Query, FastAPI, PostgreSQL, SQLAlchemy
 
-### Banking App
-Standalone banking application prototype focused on application structure, interfaces and transaction-related functionality.
+### UNE En Línea — Online Programs and Enrollment
 
-**Stack:** TypeScript
+A public website for exploring UNE’s online programs and submitting enrollment requests.
+
+- Academic offerings and an online enrollment form
+- Server-side validation and persistent queuing of submissions
+- Background delivery to Google Forms with automatic retries
+
+**Stack:** Astro, Tailwind CSS, Node.js, SQLite, Google Apps Script  
+**Live site:** [une-enlinea.com](https://www.une-enlinea.com/)
+
 
 ## Professional Focus
 
