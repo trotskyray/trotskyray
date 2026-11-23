@@ -56,7 +56,7 @@ An internal platform that brings campaign planning, event coordination, and day-
 
 **Stack:** Next.js, React, TypeScript, FastAPI, PostgreSQL
 
-### UNE Commercial Management System
+### UNE Commercial Management System (BLAZE)
 
 An internal application for managing academic offerings, tuition, and scholarships, and for tracking enrollment against targets across campuses.
 
